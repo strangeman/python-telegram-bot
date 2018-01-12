@@ -13,7 +13,7 @@ class save_thread(threading.Thread):
 
     def run(self):
         while True:
-            for i in range(60):
+            for i in range(config.AUTOSAVE_PERIOD):
                 if self.kill_received:
                     self.saveData()
                     return
