@@ -1,0 +1,13 @@
+# virtualenv files
+/bin
+/include
+/lib
+/pip-selfcheck.json
+
+# data folder
+/data
+
+# byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
